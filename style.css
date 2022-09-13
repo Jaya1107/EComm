@@ -774,6 +774,12 @@ footer a:hover{
         
     }
 
+    /*  since translateX(100%) is moving the navbar component to the right side,
+    translateX(0%) will move it into the viewport thus making it visible.  */
+    .navybar-mobile {
+        transform: translateX(0%);
+    }
+
 
     .nav-menu
     {

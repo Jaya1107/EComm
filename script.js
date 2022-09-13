@@ -38,11 +38,11 @@ hamburger.addEventListener("click",() => {
 /*--------------------------------------- 10/09/22 ---------------------------------------------------------*/
 
 const mobile_nav = document.querySelector(".mobile-navbar-btn");
-const nav_header = document.querySelector(".heaader");
-const toggleNavbar = () => {
 
-    nav_header.classList.toggle("navbar-link")
-    /*alert("HELLO EVERYONE!!");*/
+// here, I have removed the heaader classname and added the navybar classname so that I can set the translate property to 0%
+const nav_header = document.querySelector(".navybar");
+const toggleNavbar = () => {
+    nav_header.classList.toggle("navybar-mobile")   // here I am toggling the class name navybar-mobile 
 };
 
 mobile_nav.addEventListener("click", () => toggleNavbar());
