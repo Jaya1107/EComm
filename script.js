@@ -35,7 +35,7 @@ hamburger.addEventListener("click",() => {
 
 })*/
 
-/*---------------------------------------THAPA TECHNICAL---------------------------------------------------------*/
+/*--------------------------------------- 10/09/22 ---------------------------------------------------------*/
 
 const mobile_nav = document.querySelector(".mobile-navbar-btn");
 const nav_header = document.querySelector(".heaader");
